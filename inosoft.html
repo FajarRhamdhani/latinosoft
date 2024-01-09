@@ -5,38 +5,119 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <link href="bootstrap-5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="custom.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-    <article class="container-fluid text-center">
-      <section class="col-lg-12">
-        <h1 class="p-2">Inosoft Bootcamp</h1>
-        <p class="border-bottom border-dark-subtle p-2">Bootstrap Introduction</p>
-        <img src="twitter.webp" class="img-fluid" alt="toyota-yaris.jpeg">
+    <article class="container">
+      <section class="bordersec-1">
+          <h1 class="p-2">Inosoft Bootcamp</h1>
+          <p class="p-2">Bootstrap Introduction</p>
+          <div class="bordersecin"></div>
+          <div class="text-center">
+            <img src="dora0.jpeg" class="img-fluid " alt="dora0">
+          </div>
       </section>
-      <section>
+      <section class="bordersec-2">
         <div class="row">
-          <div class="card col-sm-4 col-md-4" style="width: 18rem;">
-            <img src="toyota-yaris.jpeg" class="card-img-top" alt="...">
+          <div class="card col-md-4 cardspace" style="width: 18rem;">
+            <img src="dora1.jpeg" class="card-img-top" alt="dora1">
             <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+            </div>
+            <div class="card-footer">
+              2 days ago
             </div>
           </div>
-          <div class="card col-sm-4 col-md-4" style="width: 18rem;">
-            <img src="toyota-yaris.jpeg" class="card-img-top" alt="...">
+          <div class="card col-md-4 cardspace" style="width: 18rem;">
+            <img src="dora2.webp" class="card-img-top" alt="dora2">
             <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+            </div>
+            <div class="card-footer">
+              3 weeks ago
             </div>
           </div>
-          <div class="card col-sm-4 col-md-4" style="width: 18rem;">
-            <img src="toyota-yaris.jpeg" class="card-img-top" alt="...">
+          <div class="card col-md-4 cardspace" style="width: 18rem;">
+            <img src="dora3.jpeg" class="card-img-top" alt="dora3">
             <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
             </div>
+            <div class="card-footer">
+              1 months ago
+            </div>
+          </div>
         </div>
-        </div>
-        
-        
-        
+      </section>
+      <section class="bordersec-3">
+        <h3>Contact Us</h3>
+        <form>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Name</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter Name">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter Email">
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Phone</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter Phone">
+              </div>
+              <div class="row">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Choice
+                </label>
+                <div class="col-md-4">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                          Nobi
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                          Dora
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-8">
+                  <select class="form-select" aria-label="Default select example">
+                    <option selected>What's Your Favorite Character?</option>
+                    <option value="1">Nobi</option>
+                    <option value="2">Dora</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Comment</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Enter Comment"></textarea>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-8"></div>
+            <div class="col-md-4">
+              <button type="button" class="btn btn-primary container-fluid">Submit</button>
+            </div>
+          </div>
+        </form>
         
       </section>
     

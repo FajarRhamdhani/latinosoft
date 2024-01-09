@@ -1,0 +1,21 @@
+.bordersecin{
+    border-bottom: 2px solid black;
+    margin:10px 10px 30px 10px;
+}
+.cardspace{
+    margin: 40px ;
+}
+.bordersec-1{
+    border:5px solid whitesmoke;
+    border-bottom: none;
+}
+.bordersec-2{
+    border:5px solid whitesmoke;
+    border-top: none;
+    border-bottom: 15px solid whitesmoke;
+}
+.bordersec-3{
+    border:5px solid whitesmoke;
+    border-top: none;
+    padding: 20px;
+}
