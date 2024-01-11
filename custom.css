@@ -1,3 +1,11 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.img-fluid{
+    width: 100%;
+}
 .bordersecin{
     border-bottom: 2px solid black;
     margin:10px 10px 30px 10px;
@@ -18,4 +26,15 @@
     border:5px solid whitesmoke;
     border-top: none;
     padding: 20px;
+}
+
+.btn{
+    width: 100%;
+}
+
+@media (min-width:0px) and (max-width:1100px){
+    .margradio {
+        position: absolute;
+        margin-left: 70px;
+    }
 }
